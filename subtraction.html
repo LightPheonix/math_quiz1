@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Math Quiz</title>
+        <link rel="stylesheet" href="assignment.css">
+        <link rel="icon" href="logo.ico">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Math Quiz</h1>
+            </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="tab1.html">QUIZZES</a></li>
+                        <li><a href="kontakt.html">SURVEY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="body">
+                <div id="heading">
+                        <h1>Substraction</h1>
+                        <br>
+                        <br>
+                        <img src="" id ="image1">
+                        <br>
+                        <br>
+                        <button id="btn" onclick="window.location.reload(true)">Reload</button>
+                        <input type="button" id="Num" onclick="question_1()" value="14 - 9">
+                        <input type="button" id="Num" onclick="question_2()" value="62 - 61">
+                        <input type="button" id="Num" onclick="question_3()" value="96 - 57">
+                        <input type="button" id="Num" onclick="question_4()" value="93 - 67">
+                        <input type="button" id="Num" onclick="question_5()" value="43 - 31">
+                        <input type="button" id="Num" onclick="question_6()" value="85 - 16">
+                        <input type="button" id="Num" onclick="question_7()" value="87 - 44 ">
+                        <input type="button" id="Num" onclick="question_8()" value="59 - 27">
+                        <br>
+                        <br>
+                        <br>
+
+                        <a href="tab1.html">Go back</a>
+
+                <script>
+
+                function question_1(){
+                var Number1 = window.prompt("What is 14-9?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=5){
+                    image.src = "wrong_sub_1.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+
+            function question_2(){
+                var Number1 = window.prompt("What is 62-61?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=1){
+                    image.src = "wrong_sub_2.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_3(){
+                var Number1 = window.prompt("What is 96-57?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=39){
+                    image.src = "wrong_sub_3.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_4(){
+                var Number1 = window.prompt("What is 93-67?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=29){
+                    image.src = "wrong_sub_4.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_5(){
+                var Number1 = window.prompt("What is 43-31?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=12){
+                    image.src = "wrong_sub_5.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_6(){
+                var Number1 = window.prompt("What is 85-16?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=69){
+                    image.src = "wrong_sub_6.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_7(){
+                var Number1 = window.prompt("What is 87-44?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=43){
+                    image.src = "wrong_sub_7.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_8(){
+                var Number1 = window.prompt("What is 59-27?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=75){
+                    image.src = "wrong_sub_8.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+
+
+                </script>
+                
+                
+                    </div>   
+            </div>     
+    </body>
+
+
+  
+   
+</html>

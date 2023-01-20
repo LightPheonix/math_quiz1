@@ -1,0 +1,130 @@
+*
+{
+    padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+    font-family: Georgia (serif);
+}
+
+.navbar{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(36, 41, 56);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: rgb(255, 255, 255);
+}
+
+.menu ul{
+	display: flex;
+	align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	padding: 5px 19px;
+	letter-spacing: 2px;
+	font-size: 20px;
+
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid rgba(108, 237, 224, 0.747);
+	transition: 0.3s;
+} 
+
+#body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(math1.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content: space-around;
+	align-items: center;
+}
+#heading{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+
+}
+#heading h1{
+	font-size: 40px;
+
+}
+#heading a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: rgba(255, 255, 255, 0.694);
+}
+#heading a:hover{
+	letter-spacing: 0.5px;
+	transition: 0.6s;
+    background-color:  rgba(108, 237, 224, 0.747);
+}
+#image1{
+    height: 350px;
+    border-radius: 200px;
+}
+#QUIZZES{
+	text-align: center;
+	color: #fff;
+
+}
+#QUIZZES h1{
+	font-size: 40px;
+
+}
+#QUIZZES a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: rgba(255, 255, 255, 0.694);
+}
+#QUIZZES a:hover{
+	transition: 0.6s;
+    background-color:  rgba(108, 237, 224, 0.747);
+}
+input[type=submit], [type="button"] {
+    text-decoration: none;
+	color: #000;
+	font-size: 17px;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: rgba(255, 255, 255, 0.694);
+
+
+  }
+input[type=submit]:hover, [type="button"]:hover {
+    transition: 0.6s;
+    background-color:  rgba(108, 237, 224, 0.747);
+    }
+
+#btn{
+    text-decoration: none;
+	color: #000;
+	font-size: 17px;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: rgba(255, 255, 255, 0.694);
+}
+#btn:hover{
+	transition: 0.6s;
+    background-color:  rgba(237, 172, 108, 0.747);
+}
+#picture{
+font-size: 40px;
+color: rgb(183, 101, 192);
+border-width: 1px double rgb(61, 158, 93);
+text-shadow: 1px 1px white;
+
+}

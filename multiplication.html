@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Math Quiz</title>
+        <link rel="stylesheet" href="assignment.css">
+        <link rel="icon" href="logo.ico">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Math Quiz</h1>
+            </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="tab1.html">QUIZZES</a></li>
+                        <li><a href="kontakt.html">SURVEY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="body">
+                <div id="heading">
+                    <h1>Multiplication</h1>
+                    <br>
+                    <br>
+
+        <img src="" id ="image1">
+        <br>
+        <br>
+        <button id="btn" onclick="window.location.reload(true)">Reload</button>
+        <input type="button" id="Num" onclick="question_1()" value=" 4 x 4 ">
+        <input type="button" id="Num" onclick="question_2()" value=" 5 x 5 ">
+        <input type="button" id="Num" onclick="question_3()" value=" 6 x 6 ">
+        <input type="button" id="Num" onclick="question_4()" value=" 7 x 7 ">
+        <input type="button" id="Num" onclick="question_5()" value=" 8 x 8 ">
+        <input type="button" id="Num" onclick="question_6()" value=" 9 x 9 ">
+        <input type="button" id="Num" onclick="question_7()" value=" 12 x 6 ">
+        <input type="button" id="Num" onclick="question_8()" value=" 14 x 6 ">
+        <br>
+        <br>
+        <br>
+
+        <a href="tab1.html">Go back</a>
+
+        <script>
+           function question_1(){
+                var Number1 = window.prompt("What is 4x4?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=16){
+                    image.src = "wrong1.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_2(){
+                var Number1 = window.prompt("What is 5x5?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=25){
+                    image.src = "wrong2.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_3(){
+                var Number1 = window.prompt("What is 6x6?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=36){
+                    image.src = "wrong3.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_4(){
+                var Number1 = window.prompt("What is 7x7?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=49){
+                    image.src = "wrong4.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_5(){
+                var Number1 = window.prompt("What is 8x8?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=64){
+                    image.src = "wrong5.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_6(){
+                var Number1 = window.prompt("What is 9x9?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=81){
+                    image.src = "wrong6.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_7(){
+                var Number1 = window.prompt("What is 12x6?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=72){
+                    image.src = "wrong7.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+            function question_8(){
+                var Number1 = window.prompt("What is 14x6?");
+                var Number = parseInt(Number1);
+
+                var image = document.getElementById("image1");
+
+                if(Number <=0){
+                    image.src = "error.png"
+                }
+                else if(Number !=84){
+                    image.src = "wrong8.png"
+                }
+                else {
+                    image.src = "Correct.png"
+                }
+            }
+
+
+        </script>
+
+
+        </div>   
+          </div>            
+    </body>
+  
+   
+</html>
